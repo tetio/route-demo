@@ -13,6 +13,7 @@ class Main extends Component {
     loginHandler = (event) => {
         this.setState({ auth: !this.state.auth })
     }
+    
     render() {
         return (
             <div className='Main'>
